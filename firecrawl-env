@@ -1,0 +1,5 @@
+.env并更改以下两点。
+
+USE_DB_AUTHENTICATION=false
+
+TEST_API_KEY=fc-my-firecrawl
