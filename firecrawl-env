@@ -1,4 +1,5 @@
-.env并更改以下两点。
+.env并更改以下两点
+
 ```
 USE_DB_AUTHENTICATION=false
 
@@ -32,7 +33,7 @@ TEST_API_KEY=fc-my-firecrawl
 
 ## 完整配置示例
 
-```john
+```
 curl -X POST https://api.firecrawl.dev/v1/crawl \
     -H 'Content-Type: application/json' \
     -H 'Authorization: Bearer YOUR_API_KEY' \
