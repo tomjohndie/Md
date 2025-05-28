@@ -11,25 +11,34 @@ TEST_API_KEY=fc-my-firecrawl
 
 ## 爬取参数配置
 路径包含规则 includePaths
--类型: array • 示例: ["/blog/*", "/products/*"]
+-类型: array 
+- 示例: ["/blog/*", "/products/*"]
 
 ## 路径排除规则 excludePaths
--类型: array • 示例: ["/admin/*", "/login/*"]
+-类型: array 
+- 示例: ["/admin/*", "/login/*"]
 
 ## 最大深度 maxDepth
--类型: integer • 说明: ◦ 0: 仅爬取当前页面 ◦ 1: 爬取当前页面及一级子页面 ◦ 2: 爬取至二级子页面
+-类型: integer 
+- 说明: ◦ 0: 仅爬取当前页面 ◦ 1: 爬取当前页面及一级子页面 ◦ 2: 爬取至二级子页面
 
 ## 数量限制 limit
 - 类型: integer • 默认值: 10000
 
 ## 允许回链 allowBackwardLinks
-- 类型: boolean • 说明: 允许爬取上级目录链接 • 默认值: false
+- 类型: boolean
+- 说明: 允许爬取上级目录链接
+- 默认值: false
 
 ## 允许外链 allowExternalLinks
-- 类型: boolean • 说明: 允许爬取外部域名链接 • 默认值: false
+- 类型: boolean
+- 说明: 允许爬取外部域名链接
+- 默认值: false
 
 ## 嵌套抓取配置 scrapeOptions
-- 类型: object • 说明: 继承 抓取参数配置 • 默认值: { "formats": ["markdown"] }
+- 类型: object
+- 说明: 继承 抓取参数配置
+- 默认值: { "formats": ["markdown"] }
 
 ## 完整配置示例
 
